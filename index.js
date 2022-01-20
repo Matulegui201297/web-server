@@ -12,8 +12,6 @@ app.post('/', function (req, res) {
   res.send('POST method received')
 });
 
-
-
 app.listen(port, () => {
   console.log(`Server sarted on ${port}`)
 });
